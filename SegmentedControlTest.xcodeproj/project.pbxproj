@@ -21,6 +21,10 @@
 		00092F95187652BA00C51DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00092F77187652BA00C51DBA /* UIKit.framework */; };
 		00092F9D187652BA00C51DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00092F9B187652BA00C51DBA /* InfoPlist.strings */; };
 		00092F9F187652BA00C51DBA /* SegmentedControlTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00092F9E187652BA00C51DBA /* SegmentedControlTestTests.m */; };
+		00092FAD1876553200C51DBA /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00092FAA1876553200C51DBA /* ball1.png */; };
+		00092FAE1876553200C51DBA /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00092FAB1876553200C51DBA /* ball2.png */; };
+		00092FAF1876553200C51DBA /* ball3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00092FAC1876553200C51DBA /* ball3.png */; };
+		00092FB11876698400C51DBA /* Golf Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00092FB01876698400C51DBA /* Golf Ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00092F9A187652BA00C51DBA /* SegmentedControlTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentedControlTestTests-Info.plist"; sourceTree = "<group>"; };
 		00092F9C187652BA00C51DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00092F9E187652BA00C51DBA /* SegmentedControlTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlTestTests.m; sourceTree = "<group>"; };
+		00092FAA1876553200C51DBA /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		00092FAB1876553200C51DBA /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		00092FAC1876553200C51DBA /* ball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball3.png; sourceTree = "<group>"; };
+		00092FB01876698400C51DBA /* Golf Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Golf Ball.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 		00092F67187652BA00C51DBA = {
 			isa = PBXGroup;
 			children = (
+				00092FA91876550D00C51DBA /* New Group */,
 				00092F79187652BA00C51DBA /* SegmentedControlTest */,
 				00092F98187652BA00C51DBA /* SegmentedControlTestTests */,
 				00092F72187652BA00C51DBA /* Frameworks */,
@@ -150,6 +159,17 @@
 				00092F9B187652BA00C51DBA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00092FA91876550D00C51DBA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				00092FAA1876553200C51DBA /* ball1.png */,
+				00092FAB1876553200C51DBA /* ball2.png */,
+				00092FAC1876553200C51DBA /* ball3.png */,
+				00092FB01876698400C51DBA /* Golf Ball.png */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00092FAF1876553200C51DBA /* ball3.png in Resources */,
+				00092FAD1876553200C51DBA /* ball1.png in Resources */,
 				00092F8C187652BA00C51DBA /* Images.xcassets in Resources */,
+				00092FB11876698400C51DBA /* Golf Ball.png in Resources */,
 				00092F7E187652BA00C51DBA /* InfoPlist.strings in Resources */,
 				00092F87187652BA00C51DBA /* Main.storyboard in Resources */,
+				00092FAE1876553200C51DBA /* ball2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
